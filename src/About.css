@@ -1,0 +1,33 @@
+h1 {
+	color: black;
+	text-align: center;
+	text-decoration: underline;
+}
+.class1 {
+	text-align: center;
+	background-color: coral;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.class1 p {
+	text-align: left;
+	color: black;
+	font-size: 16px;
+	font-family: verdana;
+}
+.class3 {
+	text-align: center;
+	background-color: coral;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.class3 p {
+	text-align: left;
+	color: black;
+	font-size: 16px;
+	font-family: verdana;
+}
+.carousel-inner img {
+	width: 100%;
+	object-fit: contain;
+}

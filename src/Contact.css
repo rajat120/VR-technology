@@ -1,0 +1,25 @@
+h1 {
+	color: black;
+	text-decoration: underline;
+	text-align: center;
+}
+.class1 {
+	text-align: left;
+}
+.class1 button {
+	background-color: mediumseagreen;
+}
+.form {
+	text-align: center;
+}
+
+.text {
+	margin-left: 50%;
+}
+
+.btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #e39082;
+}

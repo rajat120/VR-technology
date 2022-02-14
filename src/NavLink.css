@@ -1,0 +1,83 @@
+.navbar {
+	background-color: #181f8c;
+	height: 80px;
+	width: 100%;
+	position: sticky;
+	z-index: 999;
+	opacity: 0.9;
+	display: flex;
+	/* justify-content: space-around; */
+	align-items: center;
+	position: fixed;
+	text-decoration: none;
+}
+.link_haeder {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.nav_logo {
+	margin-left: 30px;
+	border-radius: 50%;
+	height: 50px;
+	border: 5px solid #fff;
+	background-color: white;
+	margin-top: 5%;
+}
+.vr_tech {
+	margin-left: 40px;
+	color: rgb(238, 71, 71);
+	text-decoration: none;
+}
+.vr_home {
+	margin-left: 600px;
+	color: rgb(238, 71, 71);
+}
+.vr_about {
+	margin-left: 40px;
+	color: #ff2400;
+}
+.vr_contact {
+	margin-left: 40px;
+	color: rgb(238, 71, 71);
+}
+.vr_login {
+	margin-left: 40px;
+	color: rgb(238, 71, 71);
+}
+.navbar nav ul li {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.navbar nav ul li a {
+	text-decoration: none;
+}
+.mobileNavigation {
+	display: none;
+}
+
+/* @media (max-width: 900px) {
+	.Navigation {
+		display: none;
+	}
+	.mobileNavigation {
+		display: flex;
+
+		align-items: center;
+	}
+	.humburger {
+		position: absolute;
+		right: 5%;
+		cursor: pointer;
+		top: 20px;
+	}
+	.navbar nav ul {
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		top: 80px;
+		right: 20px;
+		background-color: #66ccff;
+		border-top: 2px solid #1ab2ff;
+	} */
