@@ -5,25 +5,27 @@ h1 {
 }
 .class1 {
 	text-align: center;
-	background-color: coral;
+	background-color: gray;
 	padding-left: 50px;
 	padding-right: 50px;
+	margin-bottom: -20px;
 }
 .class1 p {
 	text-align: left;
-	color: black;
+	color: #fff;
 	font-size: 16px;
 	font-family: verdana;
 }
 .class3 {
 	text-align: center;
-	background-color: coral;
+	background-color: gray;
 	padding-left: 50px;
 	padding-right: 50px;
+	margin-bottom: -20px;
 }
 .class3 p {
 	text-align: left;
-	color: black;
+	color: #fff;
 	font-size: 16px;
 	font-family: verdana;
 }
@@ -31,3 +33,7 @@ h1 {
 	width: 100%;
 	object-fit: contain;
 }
+/* .carousel .slide {
+	border-radius: 55px 55px 55px 55px;
+	overflow: hidden;
+} */

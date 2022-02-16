@@ -21,7 +21,7 @@ function VRTechnology() {
       <div>
           <br/>
            <h4> Premium Headset (64GB)</h4>
-          <img  style={{height:"600px",width:"1400px", objectFit:"cover"}} src="https://images.unsplash.com/photo-1617802690992-15d93263d3a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHZyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="img"/>
+          <img  style={{width:"50%", objectFit:"cover"}} src="https://images.unsplash.com/photo-1617802690992-15d93263d3a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHZyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="img"/>
      
      
         <br/>
@@ -58,27 +58,7 @@ function VRTechnology() {
       </div>
   </div>
   <div>
-      <h4>What Teachers Say About  Headsets</h4>
-      <div style={{display:"flex", alignItems:"center", justifyContent:"space-between"}}>
-          <div>
-              <img style={{ borderRadius:"50%", marginLeft:"20px"}} src="https://www.classvr.com/wp-content/uploads/2017/09/anthony-issacs.png" alt='img'/>
-              <p>Anthony Isaac</p>
-              <span>
-               helped the children to engage with the task and gave them inspiration for how to describe the sights, sounds and smells of the trenches. This immersive nature of VR helped them think more creatively and their work was imaginative and detailed
-              </span>
-          </div>
-          <div>
-              <img style={{ borderRadius:"50%"}} src="https://www.classvr.com/wp-content/uploads/2022/02/testimonials-dawn-jones.jpg" alt='img'/>
-              <p>Dawn Jones</p>
-              <span>Students were able to take a typical tri-fold folding board presentation to an in-depth virtual field trip. Their presentation skills were stretched by adding the  headset component and the best part of this was that it was student driven!</span>
-          </div>
-          <div>
-              <img style={{ borderRadius:"50%", marginRight:"20px"}} src="https://www.classvr.com/wp-content/uploads/2022/02/testimonials-simon-luxford-moore.jpg" alt='img'/>
-              <p>Simon Luxford-Moore</p>
-              <span>Using , children experienced the place of Mary’s imprisonment and, due to the weather at the time of filming, develop an understanding of the ‘feel’ to her conditions. The  playlist allows for development of first-person vocabulary to be discussed and used in written work.</span>
-          </div>
-         
-      </div>
+    
       <br/>
           <br/>
      <Footer/>

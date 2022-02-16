@@ -1,11 +1,9 @@
 
 import React from 'react';
 import "./NavLink.css"
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Home from './Home';
-import About from './About';
-import Contact from './Contact';
-import logo from "./assets/logo.png"
+import {   Link } from "react-router-dom";
+
+import logo from "./assets/LOGO.png"
 
 
 function NavLink() {

@@ -6,10 +6,8 @@ import Slider from './Slider';
 
 function Home() {
   return <div>  
-      <Header/>
-      <div style={{padding: "120px"}}>
-      <Slider/>
-      </div>
+      <Header/> 
+     {/* <div style={{padding:"20px"}}></div> */}
       <MiddleSection/>
       <Footer/>
   </div>;

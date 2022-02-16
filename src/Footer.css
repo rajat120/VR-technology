@@ -1,0 +1,26 @@
+.footer {
+	position: scrollable;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+.class2 a {
+	text-decoration: none;
+	color: orange;
+}
+.class3 a {
+	text-decoration: none;
+	color: orange;
+	background-color: nonex;
+}
+.class4 a {
+	text-decoration: none;
+	color: orange;
+}
+.class15 a {
+	color: orange;
+}

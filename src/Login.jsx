@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link ,useNavigate} from 'react-router-dom';
 import auth from './firebase';
+import Header from './Header';
 
 
 
@@ -29,8 +30,14 @@ const navigate = useNavigate();
             }
         
     
-  return <div style={{display:"flex", alignItems:"center" , justifyContent:"center" , height: "100vh", backgroundRepeat:"no-repeat", backgroundSize:"cover", backgroundImage:'url("https://media.istockphoto.com/photos/metaverse-digital-cyber-world-technology-man-with-virtual-reality-vr-picture-id1348369701?b=1&k=20&m=1348369701&s=170667a&w=0&h=W3uRsa9srlRlfeVfMBxAUpgucFhH2Iqc42kJ1HBwSVg=")'}}>
+  return <div>
+<Header/>
+  
+  <div style={{display:"flex", alignItems:"center" , justifyContent:"center" , height: "100vh", backgroundRepeat:"no-repeat", backgroundSize:"cover", backgroundImage:'url("https://media.istockphoto.com/photos/metaverse-digital-cyber-world-technology-man-with-virtual-reality-vr-picture-id1348369701?b=1&k=20&m=1348369701&s=170667a&w=0&h=W3uRsa9srlRlfeVfMBxAUpgucFhH2Iqc42kJ1HBwSVg=")'}}>
+    
+      
       <div>
+        
           <h2 style={{color:"#fff"}}>Log In</h2>
           <div style={{color:"#fff"}}>
              <strong> Email Address</strong>
@@ -47,13 +54,15 @@ const navigate = useNavigate();
               style={{marginTop:"20px", marginRight:"100px", position:"relative", borderRadius:"10px",padding:"5px"}}>Log In</button>
 
 
+
           </div>
           <div>
          
           <span style={{color:"#fff"}}>
-          <strong>New User ?   &nbsp; <Link to="/signup"> <span style={{color:"black",fontSize:"15px", font:"10px"}} >Sign Up</span> </Link> &nbsp; here 
+          <strong>New User ?   &nbsp; <Link to="/signup"> <span style={{color:"red",fontSize:"15px", font:"10px"}} >Sign Up</span> </Link> &nbsp; here 
          </strong> 
       </span>
+      </div>
       </div>
       </div>
      

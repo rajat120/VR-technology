@@ -1,159 +1,132 @@
 import React from "react";
-
+import "./MiddleSection.css";
+import science from "./assets/science.png";
+import futureofvr from "./assets/futureofvr.jpg";
+import heart from "./assets/heart.jpeg";
+import book from "./assets/book.JPG";
+import education from "./assets/education.jpg";
+import traning from "./assets/traning.jpg";
+import video2 from "./assets/video2.mp4";
 function MiddleSection() {
 	return (
-		<>
+		<div>
 			<div
-				className="middlesection"
-				style={{
-					display: "flex",
-				}}
+				className="middle"
+				style={{ backgroundColor: "grey", color: "white" }}
 			>
-				<div
-					style={{
-						background: "#D3D3D3",
-						width: "500px",
-						height: "150px",
-						padding: "10px",
-						margin: "20px",
-					}}
-				>
-					<article>
-						<div style={{ fontSize: "20px" }}> VR In Education & Industry</div>
-						Learnofi-Ed is a versatile platform using the power of Virtual and
-						Augmented Reality for education and training.
-					</article>
-				</div>
-				<div>
-					<img
-						style={{ height: "170px", top: "20px", position: "relative" }}
-						src="https://mail.google.com/mail/u/0?ui=2&ik=e4b30c3abd&attid=0.1&permmsgid=msg-f:1724204771445496544&th=17ed9b1aba0adae0&view=att&disp=safe&realattid=17ed9b1499b9a6f930b8"
-						alt="img"
-					/>
-				</div>
-				<div
-					style={{
-						background: "#D3D3D3",
-						width: "500px",
-						height: "150px",
-						padding: "10px",
-						margin: "20px",
-					}}
-				>
-					<article>
-						<div style={{ fontSize: "20px" }}>
-							{" "}
-							Download the FREE VR & AR Guide
+				<div id="demo" class="carousel slide" data-bs-ride="carousel">
+					<div className="carousel-indicators">
+						<button
+							type="button"
+							data-bs-target="#demo"
+							data-bs-slide-to="0"
+							className="active"
+						></button>
+						<button
+							type="button"
+							data-bs-target="#demo"
+							data-bs-slide-to="1"
+						></button>
+						<button
+							type="button"
+							data-bs-target="#demo"
+							data-bs-slide-to="2"
+						></button>
+					</div>
+
+					<div className="carousel-inner">
+						<div className="carousel-item active">
+							<video
+								src={video2}
+								alt="Los Angeles"
+								className="d-block"
+								style={{ width: "100%", textAlign: "right" }}
+								controls
+							/>
 						</div>
-						Read our informative guide to using Virtual and Augmented Reality in
-						education.
-					</article>
-				</div>
-				<div>
-					<img
-						style={{ height: "170px", top: "20px", position: "relative" }}
-						src="https://mail.google.com/mail/u/0?ui=2&ik=e4b30c3abd&attid=0.2&permmsgid=msg-f:1724204771445496544&th=17ed9b1aba0adae0&view=att&disp=safe&realattid=17ed9b149482c711c4d2"
-						alt="img"
-					/>
-				</div>
-			</div>
-			<div style={{ margin: "20px" }}>
-				<article style={{ fontSize: "20px", margin: "20px" }}>
-					Introd Learnofi-Ed, a groundbreaking technology designed to help raise
-					engagement & increase knowledge retention for students of all ages.
-					Everything your school needs...
-				</article>
-			</div>
+						<div className="carousel-item">
+							<img
+								src="chicago.jpg"
+								alt="Chicago"
+								className="d-block"
+								style={{ width: "100%" }}
+							/>
+						</div>
+						<div className="carousel-item">
+							<img
+								src="ny.jpg"
+								alt="New York"
+								className="d-block"
+								style={{ width: "100%" }}
+							/>
+						</div>
+					</div>
 
-			<div
-				style={{
-					display: "flex",
-					alignItems: "center",
-					justifyContent: "space-between",
-				}}
-			>
-				<div style={{ width: "600px" }}>
-					<h4
-						style={{
-							display: "flex",
-							alignItems: "center",
-							justifyContent: "center",
-						}}
+					<button
+						className="carousel-control-prev"
+						type="button"
+						data-bs-target="#demo"
+						data-bs-slide="prev"
 					>
-						Standalone VR Headsets...
-					</h4>
-					<br />
-					<img
-						style={{
-							height: "400px",
-							width: "600px",
-							top: "-5px",
-							position: "relative",
-						}}
-						src="https://mail.google.com/mail/u/0?ui=2&ik=e4b30c3abd&attid=0.5&permmsgid=msg-f:1724204771445496544&th=17ed9b1aba0adae0&view=att&disp=safe&realattid=17ed9b14979e24485d66"
-						alt="image"
-					/>
+						<span className="carousel-control-prev-icon"></span>
+					</button>
+					<button
+						className="carousel-control-next"
+						type="button"
+						data-bs-target="#demo"
+						data-bs-slide="next"
+					>
+						<span className="carousel-control-next-icon"></span>
+					</button>
 				</div>
-
-				<div style={{ width: "600px" }}>
-					<h4
-						style={{
-							display: "flex",
-							alignItems: "center",
-							justifyContent: "center",
-						}}
-					>
-						Simple Classroom Controls...
-					</h4>
-					<img
-						style={{ height: "400px", width: "600px" }}
-						src="https://mail.google.com/mail/u/0?ui=2&ik=e4b30c3abd&attid=0.4&permmsgid=msg-f:1724204771445496544&th=17ed9b1aba0adae0&view=att&disp=safe&realattid=17ed9b14950c869acd63"
-						alt="img"
-					/>
+				<div className="class10" style={{ textAlign: "center" }}>
+					<h1>VR In Education & Industry</h1>
+					<p>
+						Learnofi-Ed is a versatile platform using the power of virtual and
+						augmented reality for education and training.
+					</p>
+					<img src={science} alt="Girl in a jacket" width="500" height="200" />
+					<div className="class11">
+						<h1>Download the free AR/VR guide</h1>
+						<p>
+							read our informative guide to using virtual and augmented reality
+							in education
+						</p>
+						<img
+							src={futureofvr}
+							alt="Girl in a jacket"
+							width="500"
+							height="200"
+						/>
+						<p>
+							introd learnofie-ed a groundbreaking technology designed to help
+							raise engagement & increase knowledge retention for student of all
+							ages,everything your school needs...
+						</p>
+						<h1>standalone vr headsets</h1>
+						<img src={heart} alt="Girl in a jacket" width="500" height="200" />
+						<h1>Simple classroom controls</h1>
+						<img src={book} alt="Girl in a jacket" width="500" height="200" />
+						<h1>Curriculumed aligned content....</h1>
+						<img
+							src={education}
+							alt="Girl in a jacket"
+							width="500"
+							height="200"
+						/>
+						<h1>Setup,training & Support...</h1>
+						<img
+							src={traning}
+							alt="Girl in a jacket"
+							width="500"
+							height="200"
+						/>
+					</div>
 				</div>
 			</div>
 			<br />
-
-			<div
-				style={{
-					display: "flex",
-					display: "flex",
-					alignItems: "center",
-					justifyContent: "space-between",
-				}}
-			>
-				<div style={{ width: "600px" }}>
-					<h4
-						style={{
-							display: "flex",
-							alignItems: "center",
-							justifyContent: "center",
-						}}
-					>
-						Curriculum Aligned Content...
-					</h4>
-					<img
-						src=" https://mail.google.com/mail/u/0?ui=2&ik=e4b30c3abd&attid=0.3&permmsgid=msg-f:1724204771445496544&th=17ed9b1aba0adae0&view=att&disp=safe&realattid=17ed9b149407b450b5c1"
-						alt="img"
-					/>
-				</div>
-				<div style={{ width: "600px" }}>
-					<h4
-						style={{
-							display: "flex",
-							alignItems: "center",
-							justifyContent: "center",
-						}}
-					>
-						Setup, Training & Support...
-					</h4>
-					<img
-						src="https://mail.google.com/mail/u/0?ui=2&ik=e4b30c3abd&attid=0.6&permmsgid=msg-f:1724204771445496544&th=17ed9b1aba0adae0&view=att&disp=safe&realattid=17ed9b149853aed10b97"
-						alt="img"
-					/>
-				</div>
-			</div>
-		</>
+			<br />
+		</div>
 	);
 }
 
