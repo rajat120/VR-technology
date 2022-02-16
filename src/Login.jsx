@@ -33,7 +33,7 @@ const navigate = useNavigate();
   return <div>
 <Header/>
   
-  <div style={{display:"flex", alignItems:"center" , justifyContent:"center" , height: "100vh", backgroundRepeat:"no-repeat", backgroundSize:"cover", backgroundImage:'url("https://media.istockphoto.com/photos/metaverse-digital-cyber-world-technology-man-with-virtual-reality-vr-picture-id1348369701?b=1&k=20&m=1348369701&s=170667a&w=0&h=W3uRsa9srlRlfeVfMBxAUpgucFhH2Iqc42kJ1HBwSVg=")'}}>
+  <div style={{display:"flex", alignItems:"center" , justifyContent:"center" , height: "100vh", backgroundRepeat:"no-repeat", backgroundSize:"cover", backgroundPosition:"center", backgroundImage:'url("https://media.istockphoto.com/photos/metaverse-digital-cyber-world-technology-man-with-virtual-reality-vr-picture-id1348369701?b=1&k=20&m=1348369701&s=170667a&w=0&h=W3uRsa9srlRlfeVfMBxAUpgucFhH2Iqc42kJ1HBwSVg=")'}}>
     
       
       <div>

@@ -12,7 +12,7 @@ function MiddleSection() {
 		<div>
 			<div
 				className="middle"
-				style={{ backgroundColor: "grey", color: "white" }}
+				style={{ backgroundColor: "grey", color: "white", overflow: "hidden" }}
 			>
 				<div id="demo" class="carousel slide" data-bs-ride="carousel">
 					<div className="carousel-indicators">
@@ -79,15 +79,33 @@ function MiddleSection() {
 						<span className="carousel-control-next-icon"></span>
 					</button>
 				</div>
-				<div className="class10" style={{ textAlign: "center" }}>
-					<h1>VR In Education & Industry</h1>
-					<p>
-						Learnofi-Ed is a versatile platform using the power of virtual and
-						augmented reality for education and training.
-					</p>
-					<img src={science} alt="Girl in a jacket" width="500" height="200" />
-					<div className="class11">
-						<h1>Download the free AR/VR guide</h1>
+				<div
+					className="class10"
+					style={{
+						display: "flex",
+						alignItems: "center",
+						justifyContent: "center",
+						flexDirection: "column",
+					}}
+				>
+					<div>
+						<h1 style={{ marginLeft: "10px" }}>VR In Education & Industry</h1>
+						<p>
+							Learnofi-Ed is a versatile platform using the power of virtual and
+							augmented reality for education and training.
+						</p>
+						<img
+							src={science}
+							alt="Girl in a jacket"
+							width="100%"
+							height="200"
+							style={{ objectFit: "contain" }}
+						/>
+					</div>
+					<div>
+						<h1 style={{ marginLeft: "10px" }}>
+							Download the free AR/VR guide
+						</h1>
 						<p>
 							read our informative guide to using virtual and augmented reality
 							in education
@@ -95,37 +113,64 @@ function MiddleSection() {
 						<img
 							src={futureofvr}
 							alt="Girl in a jacket"
-							width="500"
+							width="100%"
 							height="200"
+							style={{ objectFit: "contain" }}
 						/>
 						<p>
 							introd learnofie-ed a groundbreaking technology designed to help
 							raise engagement & increase knowledge retention for student of all
 							ages,everything your school needs...
 						</p>
-						<h1>standalone vr headsets</h1>
-						<img src={heart} alt="Girl in a jacket" width="500" height="200" />
-						<h1>Simple classroom controls</h1>
-						<img src={book} alt="Girl in a jacket" width="500" height="200" />
-						<h1>Curriculumed aligned content....</h1>
+					</div>
+					<div>
+						<h1 style={{ marginLeft: "10px" }}>standalone vr headsets</h1>
 						<img
-							src={education}
+							src={heart}
 							alt="Girl in a jacket"
-							width="500"
+							width="100%"
 							height="200"
-						/>
-						<h1>Setup,training & Support...</h1>
-						<img
-							src={traning}
-							alt="Girl in a jacket"
-							width="500"
-							height="200"
+							style={{ objectFit: "contain" }}
 						/>
 					</div>
+					<div>
+						<h1 style={{ marginLeft: "10px" }}>Simple classroom controls</h1>
+						<img
+							src={book}
+							alt="Girl in a jacket"
+							width="100%"
+							height="200"
+							style={{ objectFit: "contain" }}
+						/>
+						<div>
+							<h1 style={{ marginLeft: "10px" }}>
+								Curriculumed aligned content....
+							</h1>
+							<img
+								src={education}
+								alt="Girl in a jacket"
+								width="100%"
+								height="200"
+								style={{ objectFit: "contain" }}
+							/>
+						</div>
+						<div>
+							<h1 style={{ marginLeft: "10px" }}>
+								Setup,training & Support...
+							</h1>
+							<img
+								src={traning}
+								alt="Girl in a jacket"
+								width="100%"
+								height="200"
+								style={{ objectFit: "contain" }}
+							/>
+						</div>
+					</div>
 				</div>
+				<br />
+				<br />
 			</div>
-			<br />
-			<br />
 		</div>
 	);
 }

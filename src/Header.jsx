@@ -21,12 +21,12 @@ function Header() {
 				</label>
 				<ul>
 					<li>
-						<Link style={{textDecoration:"none"}} className="active" to="/">
+						<Link style={{textDecoration:"none"}}  to="/">
 							Home
 						</Link>
 					</li>
 					<li>
-					<Link  style={{textDecoration:"none"}} to="learno">LEARNOFI-ED</Link>
+					<Link  style={{textDecoration:"none"}} to="/learno">LEARNOFI-ED</Link>
 					</li>
 					<li>
           <Link  style={{textDecoration:"none"}} to="/about">ABOUT</Link>

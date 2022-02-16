@@ -38,7 +38,7 @@ function Signup() {
   return (
   <div>
     <Header/>
-    <div style={{display:"flex", alignItems:"center" , flexDirection:"column", justifyContent:"center" , height: "100vh", backgroundImage:'url("https://media.istockphoto.com/photos/woman-wearing-a-vr-headset-at-work-picture-id1305158903?b=1&k=20&m=1305158903&s=170667a&w=0&h=GvRg7AAIilQS31Q946iUt6KTCZQlAEkU5GKujgjOHEI=")', backgroundRepeat:"no-repeat", backgroundSize:"cover",objectFit:"contain"}}>
+    <div style={{display:"flex", alignItems:"center" , flexDirection:"column", justifyContent:"center" , height: "100vh",backgroundPosition:"center" ,backgroundImage:'url("https://media.istockphoto.com/photos/woman-wearing-a-vr-headset-at-work-picture-id1305158903?b=1&k=20&m=1305158903&s=170667a&w=0&h=GvRg7AAIilQS31Q946iUt6KTCZQlAEkU5GKujgjOHEI=")', backgroundRepeat:"no-repeat", backgroundSize:"cover",objectFit:"contain"}}>
         <div style={{color:"#fff"}}>
             <strong>Username:</strong>
             <br/>
